@@ -1,8 +1,10 @@
-let container = [];
-for(let i = 0 ; i < 10 ; i++){
-    const number = Number = (prompt("inserisci numero"));
-if(number%2==1){
-    container.push(number)
+const name1 = prompt("inserisci primo nome");
+const name2 = prompt ("inserisci secondo nome");
+if(name1.length > name2.length){
+    console.log(name1,name2);
+}else if (name1.length === name2.length){
+    console.log("i nomi sono uguali");
 }
-   }
-   console.log (container)
+else{
+    console.log(name2,name1);
+}

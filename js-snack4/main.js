@@ -1,8 +1,6 @@
-    const number1 = prompt("inserisci numero");
-    const number2 = prompt("inserisci numero");
-if(number1%2==0){
-    console.log(number1);
+let somma = 0;
+for(let i = 0 ; i < 3 ; i++){
+ const number = Number = (prompt("inserisci numero"));
+ somma += number;
 }
-else{
-   console.log(number2);
-}
+console.log (somma);
